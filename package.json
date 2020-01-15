@@ -1,0 +1,27 @@
+{
+    "name": "arkku-color-theme",
+    "displayName": "Arkku",
+    "description": "Arkku's color theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "arkku",
+    "license": "See LICENSE.txt",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arkku/arkku-vscode-theme"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Arkku (light)",
+                "uiTheme": "vs",
+                "path": "./themes/Arkku-color-theme.json"
+            }
+        ]
+    }
+}
