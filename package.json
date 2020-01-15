@@ -1,27 +1,32 @@
 {
-    "name": "arkku-color-theme",
-    "displayName": "Arkku",
-    "description": "Arkku's color theme for Visual Studio Code",
-    "version": "0.9.0",
-    "publisher": "arkku",
-    "license": "See LICENSE.txt",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/arkku/arkku-vscode-theme"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Arkku (light)",
-                "uiTheme": "vs",
-                "path": "./themes/Arkku-color-theme.json"
-            }
-        ]
-    }
+	"name": "arkku-color-theme",
+	"displayName": "Arkku",
+	"description": "Arkku's color theme for Visual Studio Code",
+	"version": "0.9.1",
+	"publisher": "arkku",
+	"license": "See LICENSE.txt",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arkku/arkku-vscode-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arkku (light)",
+				"uiTheme": "vs",
+				"path": "./themes/Arkku-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "7827bc1c-c3f9-4dbf-8455-d85088a1990b",
+		"publisherDisplayName": "Kimmo Kulovesi",
+		"publisherId": "7920afbc-14be-4814-a63c-a6ff9df3664d"
+	}
 }
