@@ -25,7 +25,7 @@
     "editor.hoverHighlightBackground": "#fffde355",
     "editor.lineHighlightBackground": "#f8f8f8",
     "editor.rangeHighlightBackground": "#fffde355",
-    "editorWhitespace.foreground": "#dddddd",
+    "editorWhitespace.foreground": "#ddf0f0",
     "editorIndentGuide.background": "#eeeeee",
     "editorCodeLens.foreground": "#333333",
     "editorBracketMatch.background": "#d9f1ff",
@@ -202,7 +202,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#dd6666"
+        "foreground": "#993399"
       }
     },
     {
@@ -237,10 +237,11 @@
       "scope": [
         "meta.preprocessor",
         "meta.preprocessor keyword",
-        "meta.preprocessor.include string.quoted"
+        "meta.preprocessor.include string.quoted",
+        "meta.embedded.frontmatter"
       ],
       "settings": {
-        "foreground": "#006600",
+        "foreground": "#006600"
       }
     },
     {
@@ -328,6 +329,17 @@
       "settings": {
         "foreground": "#000000",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "Case",
+      "scope": [
+        "keyword.control.case",
+        "meta.conditional keyword.control"
+      ],
+      "settings": {
+        "foreground": "#0066cc",
+        "fontStyle": "bold"
       }
     },
     {

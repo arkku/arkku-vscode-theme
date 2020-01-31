@@ -2,7 +2,7 @@
 	"name": "arkku-color-theme",
 	"displayName": "Arkku",
 	"description": "Arkku's color theme for Visual Studio Code",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"publisher": "arkku",
 	"license": "See LICENSE.txt",
 	"engines": {
