@@ -16,6 +16,6 @@ color. **Keywords** are **bold** in most programming languages.
 Both light and dark variants are included, but light background is the
 "classic" version that I mainly use.
 
-![Light theme screenshot](screenshots/Arkku+light+VSCode+theme.png?raw=true "Arkku (light)")
-![Dark theme screenshot](screenshots/Arkku+dark+VSCode+theme.png?raw=true "Arkku (dark)")
+![Light theme screenshot](screenshots/Arkku%20light%20VSCode%20theme.png?raw=true "Arkku (light)")
+![Dark theme screenshot](screenshots/Arkku%20dark%20VSCode%20theme.png?raw=true "Arkku (dark)")
 
