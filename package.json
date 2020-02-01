@@ -2,15 +2,28 @@
 	"name": "arkku-color-theme",
 	"displayName": "Arkku",
 	"description": "Arkku's color theme for Visual Studio Code",
-	"version": "0.9.2",
+	"version": "1.1.0",
 	"publisher": "arkku",
 	"license": "See LICENSE.txt",
+    "preview": true,
 	"engines": {
 		"vscode": "^1.41.0"
 	},
 	"categories": [
 		"Themes"
 	],
+	"keywords": [
+		"arkku",
+		"simple",
+		"bold keywords",
+		"theme",
+		"light",
+		"dark"
+	],
+	"homepage": "https://github.com/arkku/arkku-vscode-theme",
+	"bugs": {
+		"url": "https://github.com/arkku/arkku-vscode-theme/issues"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/arkku/arkku-vscode-theme"
@@ -21,8 +34,17 @@
 				"label": "Arkku (light)",
 				"uiTheme": "vs",
 				"path": "./themes/Arkku-color-theme.json"
+			},
+			{
+				"label": "Arkku (dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Arkku-Dark-color-theme.json"
 			}
 		]
+	},
+	"galleryBanner": {
+		"color": "#0099aa",
+		"theme": "light"
 	},
 	"__metadata": {
 		"id": "7827bc1c-c3f9-4dbf-8455-d85088a1990b",

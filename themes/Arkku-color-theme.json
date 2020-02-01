@@ -12,7 +12,8 @@
     // Editor
     "editor.background": "#ffffff",
     "editor.foreground": "#222222",
-    "editorCursor.foreground": "#2076bd",
+    "editorCursor.foreground": "#0061b1",
+    "editorCursor.background": "#ffffffbb",
     "editorLineNumber.foreground": "#bbbbbb",
     "editorLineNumber.activeForeground": "#666666",
     "editor.selectionBackground": "#E3F8FF",
@@ -27,20 +28,23 @@
     "editor.rangeHighlightBackground": "#fffde355",
     "editorWhitespace.foreground": "#ddf0f0",
     "editorIndentGuide.background": "#eeeeee",
-    "editorCodeLens.foreground": "#333333",
+    "editorCodeLens.foreground": "#cccccc",
     "editorBracketMatch.background": "#d9f1ff",
     "editorBracketMatch.border": "#b7e5ff",
     "editorError.foreground": "#e22e28",
     "editorError.border": "#e22e28",
     "editorWarning.foreground": "#f78c00",
     "editorWarning.border": "#f78c00",
-    "editorGutter.addedBackground": "#55a532",
-    "editorGutter.modifiedBackground": "#62bbfa",
-    "editorGutter.deletedBackground": "#fc5931",
+    "editorGutter.addedBackground": "#ccffd3",
+    "editorGutter.modifiedBackground": "#99d3fd",
+    "editorGutter.deletedBackground": "#ffa690",
     "editorGutter.background": "#f8f8f8",
     "editorRuler.foreground": "#d9d9d9",
     "editorOverviewRuler.errorForeground": "#e22e28",
     "editorOverviewRuler.warningForeground": "#f78c00",
+    // Diff
+    "diffEditor.insertedTextBackground": "#d9ffde",
+    "diffEditor.removedTextBackground": "#d9f0ff",
     // Editor Widget
     "editorWidget.background": "#F0F0F0",
     "editorWidget.border": "#d9d9d9",
@@ -136,7 +140,7 @@
     "pickerGroup.border": "#d9d9d9",
     "pickerGroup.foreground": "#222222",
     // Extension
-    "extensionButton.prominentBackground": "#0281ff",
+    "extensionButton.prominentBackground": "#0281cc",
     "extensionButton.prominentForeground": "#ffffff",
     // Status Bar
     "statusBar.background": "#0281ff",
@@ -146,6 +150,8 @@
     "statusBar.foreground": "#ffffff",
     "statusBar.noFolderBackground": "#0281ff",
     "statusBar.noFolderForeground": "#ffffff",
+    "statusBarItem.remoteBackground": "#0281ff",
+    "statusBarItem.remoteForeground": "#eeffff",
     // Panel
     "panel.background": "#f0f0f0",
     "panel.border": "#d9d9d9",
@@ -166,7 +172,7 @@
     // Terminal
     "terminal.ansiBlack": "#000000",
     "terminal.ansiRed": "#660000",
-    "terminal.ansiGreen": "#003300",
+    "terminal.ansiGreen": "#006600",
     "terminal.ansiYellow": "#cc6600",
     "terminal.ansiBlue": "#000099",
     "terminal.ansiMagenta": "#660066",
@@ -174,7 +180,7 @@
     "terminal.ansiWhite": "#bbbbbb",
     "terminal.ansiBrightBlack": "#333333",
     "terminal.ansiBrightRed": "#993300",
-    "terminal.ansiBrightGreen": "#006600",
+    "terminal.ansiBrightGreen": "#009900",
     "terminal.ansiBrightYellow": "#ff9900",
     "terminal.ansiBrightBlue": "#0066cc",
     "terminal.ansiBrightMagenta": "#9966cc",
@@ -202,7 +208,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#993399"
+        "foreground": "#884466"
       }
     },
     {
@@ -524,6 +530,7 @@
       }
     }
   ],
+  "type": "light",
   "colorSpaceName": "sRGB",
   "semanticClass": "theme.light.arkku",
   "author": "Kimmo Kulovesi"
