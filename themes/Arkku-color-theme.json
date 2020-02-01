@@ -172,7 +172,7 @@
     // Terminal
     "terminal.ansiBlack": "#000000",
     "terminal.ansiRed": "#660000",
-    "terminal.ansiGreen": "#006600",
+    "terminal.ansiGreen": "#003300",
     "terminal.ansiYellow": "#cc6600",
     "terminal.ansiBlue": "#000099",
     "terminal.ansiMagenta": "#660066",
@@ -180,7 +180,7 @@
     "terminal.ansiWhite": "#bbbbbb",
     "terminal.ansiBrightBlack": "#333333",
     "terminal.ansiBrightRed": "#993300",
-    "terminal.ansiBrightGreen": "#009900",
+    "terminal.ansiBrightGreen": "#006600",
     "terminal.ansiBrightYellow": "#ff9900",
     "terminal.ansiBrightBlue": "#0066cc",
     "terminal.ansiBrightMagenta": "#9966cc",
